@@ -1,0 +1,119 @@
+[
+{
+  "model": "chirper.userprofile",
+  "fields": {
+    "user_permissions": [],
+    "is_superuser": true,
+    "date_joined": "2015-03-12T04:15:28.207Z",
+    "username": "admin",
+    "groups": [],
+    "last_login": "2015-03-12T17:27:18.439Z",
+    "first_name": "",
+    "following": [],
+    "email": "admin@admin.com",
+    "is_active": true,
+    "password": "pbkdf2_sha256$15000$3LbcVnLookSA$BwKF04WdkkIJuBD9mqWKs+kbcoR65icdXN0DNPmJKhY=",
+    "is_staff": true,
+    "last_name": ""
+  },
+  "pk": 1
+},
+{
+  "model": "chirper.userprofile",
+  "fields": {
+    "user_permissions": [],
+    "is_superuser": false,
+    "date_joined": "2015-03-12T16:12:30.151Z",
+    "username": "FollowTestUser",
+    "groups": [],
+    "last_login": "2015-03-12T16:15:57.431Z",
+    "first_name": "",
+    "following": [],
+    "email": "",
+    "is_active": true,
+    "password": "pbkdf2_sha256$15000$ewhiuq62nPsI$JPf7MclKXPn+T7QHJEa6TiPJKVkNglcU4ZnYEsbPurU=",
+    "is_staff": false,
+    "last_name": ""
+  },
+  "pk": 6
+},
+{
+  "model": "chirper.userprofile",
+  "fields": {
+    "user_permissions": [],
+    "is_superuser": false,
+    "date_joined": "2015-03-12T16:14:09.085Z",
+    "username": "TestUser",
+    "groups": [],
+    "last_login": "2015-03-12T17:24:49.741Z",
+    "first_name": "",
+    "following": [
+      10
+    ],
+    "email": "",
+    "is_active": true,
+    "password": "pbkdf2_sha256$15000$xh7yhT6q32UP$f8N82LQfGIUGb0Wk8zejDKAqlpeGzwe5Wo/Fk8xrKhg=",
+    "is_staff": false,
+    "last_name": ""
+  },
+  "pk": 7
+},
+{
+  "model": "chirper.userprofile",
+  "fields": {
+    "user_permissions": [],
+    "is_superuser": false,
+    "date_joined": "2015-03-12T17:24:17.669Z",
+    "username": "UnfollowTestUser",
+    "groups": [],
+    "last_login": "2015-03-12T17:24:17.669Z",
+    "first_name": "",
+    "following": [],
+    "email": "",
+    "is_active": true,
+    "password": "pbkdf2_sha256$15000$BpL2jjfO4Iy4$3VMbw6WOmNysU4uaK1bGXNuMgK1LF2LCMefAjuQRvYM=",
+    "is_staff": false,
+    "last_name": ""
+  },
+  "pk": 10
+},
+{
+  "model": "chirper.userprofile",
+  "fields": {
+    "user_permissions": [],
+    "is_superuser": false,
+    "date_joined": "2015-03-12T17:24:27.085Z",
+    "username": "FollowerTestUser",
+    "groups": [],
+    "last_login": "2015-03-12T17:26:42.315Z",
+    "first_name": "",
+    "following": [
+      7
+    ],
+    "email": "",
+    "is_active": true,
+    "password": "pbkdf2_sha256$15000$h8jJIHIHn9EM$1N1RltyP0kqyWGx2RosuLrlFVGoHjMkYrAzhvOk0zU8=",
+    "is_staff": false,
+    "last_name": ""
+  },
+  "pk": 11
+},
+{
+  "model": "chirper.chirp",
+  "fields": {
+    "time_posted": "2015-03-12T16:15:42.652Z",
+    "text": "TestUser test post.",
+    "author": 7
+  },
+  "pk": 3
+},
+{
+  "model": "chirper.chirp",
+  "fields": {
+    "time_posted": "2015-03-12T16:16:08.644Z",
+    "text": "FollowTestUser test post.",
+    "author": 6
+  },
+  "pk": 4
+}
+]
