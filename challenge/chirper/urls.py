@@ -3,7 +3,6 @@ from rest_framework.urlpatterns import format_suffix_patterns
 from chirper import views
 
 urlpatterns = [
-  url(r'^$', views.ApiRoot.as_view()),
   url(r'^login/$', views.UserLogin.as_view(), name='login'),
   url(r'^logout/$', views.UserLogout.as_view(), name='logout'),
   url(r'^register/$', views.UserCreate.as_view(), name='register'),

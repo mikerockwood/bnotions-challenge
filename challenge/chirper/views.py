@@ -14,13 +14,6 @@ from chirper.models import UserProfile, Chirp
 from chirper.serializers import UserProfileSerializer, ChirpSerializer
 
 
-class ApiRoot(APIView):
-  """
-  The API root. It does nothing.
-  """
-  def get(self, request, format=None):
-    return Response('Welcome to the API.')
-
 class UserLogin(APIView):
   """
   Provide a POST method to allow registered users to log in to the Chirper
